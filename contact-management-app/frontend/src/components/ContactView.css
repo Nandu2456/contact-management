@@ -1,0 +1,44 @@
+.contact-view-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75, 85, 99, 0.5); /* gray with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.contact-view-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-view-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-view-container p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.contact-view-container button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-view-container button:hover {
+  background-color: #0056b3;
+}
